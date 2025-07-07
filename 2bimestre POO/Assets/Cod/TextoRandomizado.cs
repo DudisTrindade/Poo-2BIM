@@ -32,9 +32,17 @@ public class TextoRandomizado : MonoBehaviour
 
     }
 
-    public void Diminuir()
+  
+      public void Diminuir()
     {
         numero--;
+        UITexto.text = novoTexto + " " + numero;
+    }    
+      
+      
+      public void Aumentar()
+    {
+        numero++;
         UITexto.text = novoTexto + " " + numero;
     }
 }

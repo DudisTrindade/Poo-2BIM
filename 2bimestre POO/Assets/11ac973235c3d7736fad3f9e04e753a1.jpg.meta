@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 565013a5aaa7bd046801188cd2178509
+guid: b15de7f64e6a8c44da873d152458550f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5724029481980645938
-    second: 20240713dragonRightArrowButton-Sheet_0
-  - first:
-      213: -8713867955442861774
-    second: 20240713dragonRightArrowButton-Sheet_1
-  - first:
-      213: -8173939668097307871
-    second: 20240713dragonRightArrowButton-Sheet_2
-  - first:
-      213: -91764594397261738
-    second: 20240713dragonRightArrowButton-Sheet_3
+      213: 156929540280559988
+    second: 11ac973235c3d7736fad3f9e04e753a1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20240713dragonRightArrowButton-Sheet_0
+      name: 11ac973235c3d7736fad3f9e04e753a1_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 14
-        height: 16
+        width: 400
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecd2eaa63892090b0800000000000000
-      internalID: -5724029481980645938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20240713dragonRightArrowButton-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 0
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2393b28334f121780800000000000000
-      internalID: -8713867955442861774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20240713dragonRightArrowButton-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12be593ed25509e80800000000000000
-      internalID: -8173939668097307871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 20240713dragonRightArrowButton-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6505efb669cf9bef0800000000000000
-      internalID: -91764594397261738
+      spriteID: 479203fd5968d2200800000000000000
+      internalID: 156929540280559988
       vertices: []
       indices: 
       edges: []
@@ -209,11 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      20240713dragonRightArrowButton-Sheet_0: -5724029481980645938
-      20240713dragonRightArrowButton-Sheet_1: -8713867955442861774
-      20240713dragonRightArrowButton-Sheet_2: -8173939668097307871
-      20240713dragonRightArrowButton-Sheet_3: -91764594397261738
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
