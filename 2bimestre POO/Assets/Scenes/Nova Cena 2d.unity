@@ -345,7 +345,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -425,8 +425,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.203, y: -66.317}
-  m_SizeDelta: {x: 109.407, y: 9.233}
+  m_AnchoredPosition: {x: 74.6, y: -70.8}
+  m_SizeDelta: {x: 109.407, y: 8.054}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407290922
 MonoBehaviour:
@@ -563,8 +563,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.37332, y: -40.91625}
-  m_SizeDelta: {x: 107.227, y: 19.024}
+  m_AnchoredPosition: {x: -79.7, y: -41.456}
+  m_SizeDelta: {x: 118.29, y: 20.103}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463428140
 MonoBehaviour:
@@ -1042,13 +1042,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16.5
-  m_fontSizeBase: 16.5
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1314,13 +1314,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.8
-  m_fontSizeBase: 18.8
+  m_fontSize: 14.3
+  m_fontSizeBase: 14.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1400,8 +1400,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73.1, y: 8.65691}
-  m_SizeDelta: {x: 133.649, y: 135.69}
+  m_AnchoredPosition: {x: 73.1, y: 6.144}
+  m_SizeDelta: {x: 133.649, y: 140.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143551576
 MonoBehaviour:
@@ -1816,8 +1816,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.37332, y: -62.476383}
-  m_SizeDelta: {x: 107.227, y: 19.024}
+  m_AnchoredPosition: {x: -79.7, y: -62.341}
+  m_SizeDelta: {x: 118.29, y: 18.754}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1858791229
 MonoBehaviour:
@@ -2050,6 +2050,7 @@ GameObject:
   - component: {fileID: 2053819934}
   - component: {fileID: 2053819933}
   - component: {fileID: 2053819932}
+  - component: {fileID: 2053819935}
   m_Layer: 5
   m_Name: Button Iniciar
   m_TagString: Untagged
@@ -2074,8 +2075,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -80.1, y: -19.8}
-  m_SizeDelta: {x: 107.227, y: 19.024}
+  m_AnchoredPosition: {x: -79.7, y: -19.3}
+  m_SizeDelta: {x: 118.289, y: 19.024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053819932
 MonoBehaviour:
@@ -2121,13 +2122,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2053819935}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2171,6 +2172,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053819930}
   m_CullTransparentMesh: 1
+--- !u!114 &2053819935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053819930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa3a76999a85834db480337e0b1fb71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SampleScene
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
