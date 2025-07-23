@@ -1,12 +1,13 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class TrocarTexto : MonoBehaviour
 {
-   public TextMeshProUGUI texto;
-   public TMP_InputField inputField;
-   
-   public void Trocar()
-   
+    public TextMeshProUGUI _texto;
+    public TMP_InputField _inputField;
+ 
+    public void Trocar()
+    {
+        _texto.text = _inputField.text; 
+    }
 }

@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -5,8 +6,7 @@ public class TextoRandomizado : MonoBehaviour
 {
     public string novoTexto;
     public TextMeshProUGUI UITexto;
-
-
+   
     public int numero;
 
     private void Start()
@@ -18,29 +18,18 @@ public class TextoRandomizado : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && numero > 0)
         {
-
             numero--;
             UITexto.text = novoTexto + " " + numero;
         }
-
+        
         if (Input.GetKeyDown(KeyCode.Z))
         {
-
             numero++;
             UITexto.text = novoTexto + " " + numero;
         }
-
     }
 
-  
-      public void Diminuir()
-    {
-        numero--;
-        UITexto.text = novoTexto + " " + numero;
-    }    
-      
-      
-      public void Aumentar()
+    public void SomaUm()
     {
         numero++;
         UITexto.text = novoTexto + " " + numero;
