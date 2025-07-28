@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 764270367}
   - component: {fileID: 764270366}
   m_Layer: 5
-  m_Name: Bara de energia
+  m_Name: Barra de energia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
